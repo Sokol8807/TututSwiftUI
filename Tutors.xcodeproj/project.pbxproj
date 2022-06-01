@@ -11,6 +11,7 @@
 		FD35A3862847AE180031E701 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35A3852847AE180031E701 /* ContentView.swift */; };
 		FD35A3882847AE1A0031E701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35A3872847AE1A0031E701 /* Assets.xcassets */; };
 		FD35A38B2847AE1A0031E701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35A38A2847AE1A0031E701 /* Preview Assets.xcassets */; };
+		FD35A3922847AF710031E701 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35A3912847AF710031E701 /* Tutor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		FD35A3852847AE180031E701 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FD35A3872847AE1A0031E701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD35A38A2847AE1A0031E701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FD35A3912847AF710031E701 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tutor.swift; path = "../../../../Desktop/Preview Content/Resources/Tutor.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FD35A3832847AE180031E701 /* TutorsApp.swift */,
 				FD35A3852847AE180031E701 /* ContentView.swift */,
+				FD35A3912847AF710031E701 /* Tutor.swift */,
 				FD35A3872847AE1A0031E701 /* Assets.xcassets */,
 				FD35A3892847AE1A0031E701 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD35A3862847AE180031E701 /* ContentView.swift in Sources */,
+				FD35A3922847AF710031E701 /* Tutor.swift in Sources */,
 				FD35A3842847AE180031E701 /* TutorsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
