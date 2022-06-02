@@ -12,6 +12,8 @@
 		FD35A3882847AE1A0031E701 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35A3872847AE1A0031E701 /* Assets.xcassets */; };
 		FD35A38B2847AE1A0031E701 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35A38A2847AE1A0031E701 /* Preview Assets.xcassets */; };
 		FD35A3922847AF710031E701 /* Tutor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35A3912847AF710031E701 /* Tutor.swift */; };
+		FD35A3942847B0070031E701 /* Tutor.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD35A3932847B0070031E701 /* Tutor.xcassets */; };
+		FD35A3962848BBFA0031E701 /* TutorDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD35A3952848BBFA0031E701 /* TutorDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		FD35A3872847AE1A0031E701 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD35A38A2847AE1A0031E701 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FD35A3912847AF710031E701 /* Tutor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Tutor.swift; path = "../../../../Desktop/Preview Content/Resources/Tutor.swift"; sourceTree = "<group>"; };
+		FD35A3932847B0070031E701 /* Tutor.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Tutor.xcassets; path = "../../../../../Desktop/Preview Content/Resources/Tutor.xcassets"; sourceTree = "<group>"; };
+		FD35A3952848BBFA0031E701 /* TutorDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				FD35A3832847AE180031E701 /* TutorsApp.swift */,
+				FD35A3952848BBFA0031E701 /* TutorDetail.swift */,
 				FD35A3852847AE180031E701 /* ContentView.swift */,
 				FD35A3912847AF710031E701 /* Tutor.swift */,
 				FD35A3872847AE1A0031E701 /* Assets.xcassets */,
@@ -65,6 +70,7 @@
 		FD35A3892847AE1A0031E701 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
+				FD35A3932847B0070031E701 /* Tutor.xcassets */,
 				FD35A38A2847AE1A0031E701 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
@@ -130,6 +136,7 @@
 			files = (
 				FD35A38B2847AE1A0031E701 /* Preview Assets.xcassets in Resources */,
 				FD35A3882847AE1A0031E701 /* Assets.xcassets in Resources */,
+				FD35A3942847B0070031E701 /* Tutor.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD35A3862847AE180031E701 /* ContentView.swift in Sources */,
+				FD35A3962848BBFA0031E701 /* TutorDetail.swift in Sources */,
 				FD35A3922847AF710031E701 /* Tutor.swift in Sources */,
 				FD35A3842847AE180031E701 /* TutorsApp.swift in Sources */,
 			);
