@@ -16,7 +16,7 @@ struct ContentView: View {
             
         List(tutors) { tutor in
             TutorCell(tutor: tutor)
-        }.navigationBarTitle(Text("Tutors"))
+        }
     }
 }
 }
@@ -31,7 +31,7 @@ struct ContentView_Previews: PreviewProvider {
 struct TutorCell: View {
     let tutor: Tutor
     var body: some View {
-        NavigationLink(destination: Text(tutor.headline)) {
+        NavigationLink(destination: TutorDetail(name: tutor.name, headline: tutor.headline, bio: tutor.bio)) {
             HStack(){
                 Image(tutor.imageName)
                     .clipShape(Circle())
